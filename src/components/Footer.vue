@@ -3,6 +3,7 @@
         <p>Copyright 2017 {{ title }}</p>
     </footer>
 </template>
+
 <script>
 export default {
     props: {
@@ -18,6 +19,7 @@ export default {
     }
 }
 </script>
+
 <style scoped>
 footer{
     background: #222;

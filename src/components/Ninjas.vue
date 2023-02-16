@@ -9,6 +9,7 @@
         <button v-on:click="deleteNinja">Delete a Ninja</button>
     </div>
 </template>
+
 <script>
 export default {
     props: {
@@ -29,6 +30,7 @@ export default {
     }
 }
 </script>
+
 <style scoped>
 #ninjas{
     width: 100%;
